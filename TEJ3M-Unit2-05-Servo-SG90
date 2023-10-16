@@ -1,0 +1,23 @@
+/*
+ * Created by: Emmanuel Fofeyin
+ * Created on: Oct 2023
+ * This program controls a servo motor
+*/
+
+#include <Servo.h>
+
+Serco servoNumber1;
+
+void setup() {
+    // setup servo pins
+    servoNumber1.attach(2);
+    servoNumber1.write(0);
+}
+
+void loop() {
+    // put main cod here to run repeatedly
+    servoNumber1.write(90);
+    delay(1000);
+    servoNumber1.write(90);
+    delay(1000);
+}
