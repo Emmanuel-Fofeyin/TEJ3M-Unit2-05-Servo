@@ -6,7 +6,7 @@
 
 #include <Servo.h>
 
-Serco servoNumber1;
+Servo servoNumber1;
 
 void setup() {
     // setup servo pins
